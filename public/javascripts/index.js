@@ -126,7 +126,6 @@ navLinks.forEach(function(link) {
 let cards = document.querySelectorAll(".card-image")
 cards.forEach(card=>{
     card.addEventListener('click',()=>{
-
         window.location.href = "/project";
     })
 })
